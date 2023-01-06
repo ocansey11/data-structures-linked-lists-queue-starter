@@ -61,6 +61,7 @@ class SinglyLinkedList {
         this.length--
         return removed
         // Write your hypothesis on the time complexity of this method here
+        // O(1)
     }
 
     removeFromTail() {
@@ -92,6 +93,7 @@ class SinglyLinkedList {
         }
 
         // Write your hypothesis on the time complexity of this method here
+        // O(n)
     }
 
     print() {
@@ -108,6 +110,7 @@ class SinglyLinkedList {
             current = current.next
         }
         // Write your hypothesis on the time complexity of this method here
+        // O(n)
     }
 }
 
